@@ -21,6 +21,7 @@ import java.util.Properties;
 
 /**
  * 自定义一个operator state
+ * 应用场景是：所有非keyStream的算子
  */
 public class FlinkOperatorState {
 

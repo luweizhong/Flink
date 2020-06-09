@@ -36,6 +36,7 @@ public class WholePointTrigger {
     private final static String GROUPID = "2123";
     private final static String BOOTSTRAPSERVERS = "localhost:9092";
 
+
     public static void main(String[] args) {
         StreamExecutionEnvironment environment = StreamExecutionEnvironment.getExecutionEnvironment();
         environment.setParallelism(1);
